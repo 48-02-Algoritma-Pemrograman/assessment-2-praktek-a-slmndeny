@@ -21,17 +21,19 @@ public class Nomor1 {
                 System.out.print(i + " ");
             }
         }
+        // Hapus spasi tambahan di akhir
+        System.out.println();
     }
 
     public static void main(String[] args){
         Scanner input = new Scanner(System.in);
-        System.out.print("Masukan nilai N : ");
         int N = input.nextInt();
         
         /* Pekerjaan anda mulai dari sini */
         prosesOutputFizzBuzz(N);
         /* Pekerjaan anda berakhir sisi */
         
+        // Cetak jumlah method yang ada di kelas
         System.out.print(Nomor1.class.getDeclaredMethods().length); 
     }
 }
