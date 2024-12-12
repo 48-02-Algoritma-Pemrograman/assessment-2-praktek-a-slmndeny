@@ -5,24 +5,14 @@ public class Nomor1 {
         Scanner input = new Scanner(System.in);
         int N = input.nextInt();
         /* Pekerjaan anda mulai dari sini */
-        prosesOutputFizzBuzz(N);
+        hitungGanjil(N);
     }
-        public static void prosesOutputFizzBuzz(int N) {
-        for (int i = 0; i <= N; i++) {
-            if (i % 3 == 0 && i % 5 == 0) {
-                System.out.print("FizzBuzz ");
-            } 
-            else if (i % 3 == 0) {
-                System.out.print("Fizz ");
-            } 
-            else if (i % 5 == 0) {
-                System.out.print("Buzz ");
-            } 
-            else {
-                System.out.print(i + " ");
+        public static void hitungGanjil(int N){
+            for(int i =0; i <= N; i++){
+                if (i % 2 ==1) {
+                    System.out.println(i);
+                }
             }
-        }
-        System.out.println();
         /* Pekerjaan anda berakhir sisi */
 
         System.out.print(Nomor1.class.getDeclaredMethods().length); 
