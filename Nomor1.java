@@ -8,8 +8,8 @@ public class Nomor1 {
         /* Pekerjaan anda mulai dari sini */
         prosesOutputFizzBuzz(N);
     }
-    public static void prosesOutputFizzBuzz(int n) {
-            for (int i = 0; i <= n; i++) {
+    public static void prosesOutputFizzBuzz(int N) {
+            for (int i = 0; i <= N; i++) {
                 if (i % 3 == 0 && i % 5 == 0) {
                     System.out.print("FizzBuzz ");
                 } 
